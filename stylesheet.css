@@ -1,0 +1,92 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.atas{
+  padding: 180px 0 100px 0;
+  text-align: center;
+  background-image: url(https://mcdn.wallpapersafari.com/medium/27/46/C4RTUr.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.atas h1{
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.container h1,p {
+  opacity: 0.7;
+  color: white;
+}
+
+.container h2{
+  opacity: 0.7;
+  color: #f2e6ff;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.btn-wrapper{
+  margin-top: 20px;
+}
+
+.btn-wrapper a{
+  color: white;
+  padding: 12px 24px;            
+  display: inline-block;            
+  opacity: 0.8;            
+  border-radius: 4px;
+}
+
+.email{
+  background-color: #239b76;
+  margin-bottom: 10px;
+}
+
+.facebook{
+  background-color: #3b5998;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.twitter{
+  background-color: #55acee;
+  margin-bottom: 20px;
+  
+}
+
+.btn-wrapper p{
+  margin: 10px;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+.btn-wrapper a:hover{
+  opacity: 1;
+  color-background: #f2e6ff;
+}
